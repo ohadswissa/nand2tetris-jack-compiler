@@ -1,0 +1,9 @@
+push constant 10
+pop local 0
+add  
+label LOOP_START 
+goto LOOP_START 
+if-goto END 
+function Main.main 2
+call Math.multiply 2
+return  
